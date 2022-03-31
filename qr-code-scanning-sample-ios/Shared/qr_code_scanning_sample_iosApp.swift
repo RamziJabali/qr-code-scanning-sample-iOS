@@ -1,12 +1,7 @@
-//
-//  qr_code_scanning_sample_iosApp.swift
-//  Shared
-//
-//  Created by Ramzi Jabali on 3/30/22.
-//
-//
-
 import SwiftUI
+import MLKitBarcodeScanning
+import MLKit
+import MLImage
 
 @main
 struct qr_code_scanning_sample_iosApp: App {
@@ -15,4 +10,5 @@ struct qr_code_scanning_sample_iosApp: App {
             ContentView()
         }
     }
+    let barcodeOptions = BarcodeScannerOptions(formats: BarcodeFormat.qrCode)
 }

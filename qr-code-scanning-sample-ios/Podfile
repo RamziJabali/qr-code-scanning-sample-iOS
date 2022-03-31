@@ -1,0 +1,10 @@
+use_frameworks!
+
+platform :ios, '15.0'
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'qr-code-scanning-sample-iOS' do
+      project '/Users/ramzijabali/Code/qr-code-scanning-sample-iOS/qr-code-scanning-sample-ios/'
+      pod 'GoogleMLKit/BarcodeScanning', '2.6.0'
+end
