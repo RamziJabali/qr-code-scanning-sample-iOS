@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ECF30AAA9AE66186AEF7D66D"
+               BuildableName = "qr-code-scanning-sample-ios.app"
+               BlueprintName = "qr-code-scanning-sample-ios (iOS)"
+               ReferencedContainer = "container:qr-code-scanning-sample-ios.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ECF30AAA9AE66186AEF7D66D"
+            BuildableName = "qr-code-scanning-sample-ios.app"
+            BlueprintName = "qr-code-scanning-sample-ios (iOS)"
+            ReferencedContainer = "container:qr-code-scanning-sample-ios.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
